@@ -5,7 +5,7 @@ from dash import Dash, dash_table, html, dcc
 
 import pandas as pd
 import plotly.express as px
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 import random
 
 goodreads_df = pd.read_csv("data.csv")
